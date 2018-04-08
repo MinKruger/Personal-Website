@@ -1,0 +1,143 @@
+html{
+    margin: 15;
+    padding: 15;
+}
+
+body{
+    background: url(http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/544180/a95b56b010c9ee612e679352c570a3ee32ac42d7.jpg) center top no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#head{
+    padding: 25px;
+}
+
+#walle{
+    float: right;
+    transform: scaleX(-1);
+}
+
+#Lcolumn{
+    float: left;
+    width: 73%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
+
+h1{
+    font-size: 320%;
+    text-align: center;
+}
+
+#p1{
+    font-size: 150%;
+    text-align: center;
+}
+
+.grafico{
+    float: left;
+    width: 50%;
+    height: 50%;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+}
+
+#skills{
+    font-size: 150%;
+    text-align: left;
+}
+
+#Rcolumn{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+h2{
+    font-size: 220%;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: blueviolet;
+    border-radius: 155px;
+    -moz-border-radius: 155px;
+	-webkit-border-radius: 155px;
+}
+
+.container:hover
+.overlay{
+    opacity: 1;
+}
+
+.aboutme{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.contact{
+    font-size: 88%;
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+#p2{
+    font-size: 120%;
+}
+
+
+#card{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 30px rgb(70, 183, 221), 0 0 10px rgb(106, 221, 230);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+#row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#foot{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(70, 183, 221), 0 0 5px rgb(106, 221, 230);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
