@@ -5,7 +5,7 @@ html{
 
 body{
     background: url(http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/544180/a95b56b010c9ee612e679352c570a3ee32ac42d7.jpg) center top no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
